@@ -14,6 +14,6 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.debasish7377:Toaster:Tag'
+	        implementation 'com.github.debasish7377:Toaster:1.0.0'
 	}
 ```
