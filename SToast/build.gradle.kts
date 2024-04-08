@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = "com.github.debasish7377"
                 artifactId = "Toaster"
-                version = "2.3.7"
+                version = "2.3.8"
             }
         }
     }
