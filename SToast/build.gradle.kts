@@ -42,3 +42,18 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                // Publishes the artifacts from the 'release' variant
+                from(components["release"])
+
+                groupId = "com.github.debasish7377"
+                artifactId = "Toaster"
+                version = "1.0"
+            }
+        }
+    }
+}
