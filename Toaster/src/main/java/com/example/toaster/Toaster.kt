@@ -1,4 +1,4 @@
-package com.example.stoast
+package com.example.toaster
 
 import android.content.Context
 import android.widget.Toast

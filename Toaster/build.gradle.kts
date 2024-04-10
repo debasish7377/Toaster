@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.stoast"
+    namespace = "com.example.toaster"
     compileSdk = 34
 
     defaultConfig {
@@ -29,7 +29,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
@@ -52,7 +52,7 @@ afterEvaluate {
 
                 groupId = "com.github.debasish7377"
                 artifactId = "Toaster"
-                version = "2.4.5"
+                version = "2.4.6"
             }
         }
     }

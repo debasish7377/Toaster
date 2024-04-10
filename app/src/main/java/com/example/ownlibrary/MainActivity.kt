@@ -2,7 +2,7 @@ package com.example.ownlibrary
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.stoast.Toaster
+import com.example.toaster.Toaster
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

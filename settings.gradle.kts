@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Own Library"
 include(":app")
 include(":SToast")
+include(":Toaster")

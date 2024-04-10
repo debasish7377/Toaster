@@ -1,4 +1,4 @@
-package com.example.stoast
+package com.example.toaster
 
 import org.junit.Test
 
