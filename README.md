@@ -14,6 +14,11 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.debasish7377:Toaster:1.0'
+	        implementation 'com.github.debasish7377:Toaster:2.4.6'
 	}
+```
+``` Toast implementation
+
+Toaster.show(this@MainActivity, "Hii Friends")
+
 ```
