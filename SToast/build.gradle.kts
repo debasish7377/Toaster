@@ -51,8 +51,8 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = "com.github.debasish7377"
-                artifactId = "SToast"
-                version = "2.4.2"
+                artifactId = "Toaster"
+                version = "2.4.3"
             }
         }
     }
