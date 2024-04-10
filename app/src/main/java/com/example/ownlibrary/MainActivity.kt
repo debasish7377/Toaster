@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         ///this is toast
-        Toaster.showToast(this, "Hii")
+        Toaster.show(this, "Hii")
     }
 }
