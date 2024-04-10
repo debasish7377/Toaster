@@ -17,6 +17,8 @@ dependencies {
 	        implementation 'com.github.debasish7377:Toaster:2.4.6'
 	}
 ```
+>Toast implementation
+
 ``` Toast implementation
 
 Toaster.show(this@MainActivity, "Hii Friends")
